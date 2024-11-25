@@ -23,7 +23,7 @@ export class EnviromentComponent {
     console.log('...........')
   }
 
-  treeInputValue = [{name:'aaa', children[]},{name:'bbb', children[{name:'xxx', children[]}, {name:'zzzz', children[]}]},{name:'uuu', children[]}]
+  treeInputValue = [{name:'aaa', children:[]},{name:'bbb', children:[{name:'xxx', children:[]}, {name:'zzzz', children:[]}]},{name:'uuu', children:[]}];
 
   nodeSelectEventOutputEvent(response: any) {
     console.log(response)
